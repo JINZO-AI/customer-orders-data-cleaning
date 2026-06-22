@@ -1,1 +1,114 @@
-IyBDdXN0b21lciBPcmRlcnMgRGF0YSBDbGVhbmluZwoKPiAqKlB5dGhvbiAmIFBhbmRhcyBwaXBlbGluZSB0aGF0IHRyYW5zZm9ybWVkIGEgNTAsMDAwLXJvdyBlLWNvbW1lcmNlIGRhdGFzZXQgZnVsbCBvZiByZWFsLXdvcmxkIHF1YWxpdHkgaXNzdWVzIGludG8gYSBhbmFseXNpcy1yZWFkeSBhc3NldC4qKgoKLS0tCgojIyBQcm9qZWN0IE92ZXJ2aWV3CgpUaGlzIHByb2plY3Qgc2ltdWxhdGVzIHRoZSBraW5kIG9mIG1lc3N5LCByZWFsLXdvcmxkIGRhdGEgYW5hbHlzdHMgZW5jb3VudGVyIGluIHByb2R1Y3Rpb24gZW52aXJvbm1lbnRzLiBUaGUgcmF3IGRhdGFzZXQgY29udGFpbmVkIG11bHRpcGxlIG92ZXJsYXBwaW5nIGlzc3VlcyBhY3Jvc3MgZHVwbGljYXRlcywgZGF0ZSBmb3JtYXRzLCBmaW5hbmNpYWwgY2FsY3VsYXRpb25zLCBhbmQgbWlzc2luZyB2YWx1ZXMuIFRoZSBnb2FsIHdhcyBub3QganVzdCB0byBjbGVhbiB0aGUgZGF0YSwgYnV0IHRvIGRvY3VtZW50IGV2ZXJ5IGRlY2lzaW9uIHdpdGggYSBjbGVhciByYXRpb25hbGUuCgotLS0KCiMjIERhdGFzZXQKCnwgfCBSYXcgfCBDbGVhbiB8CnwtLS18LS0tfC0tLXwKfCAqKlJvd3MqKiB8IH41MCwwMDAgfCA0OSw3MDAgfAp8ICoqQ29sdW1ucyoqIHwgMTUgfCAxNSB8CnwgKipEdXBsaWNhdGVzKiogfCB+MzAwIHwgMCB8CnwgKipaZXJvLXF1YW50aXR5IHJvd3MqKiB8IH4zMDAgfCAwIHwKfCAqKkNvcnJ1cHRlZCB0b3RhbF9hbW91bnQqKiB8IFllcyB8IFJlY2FsY3VsYXRlZCB8CnwgKipOYVQgaW4gb3JkZXJfZGF0ZSoqIHwgWWVzIHwgMCB8CnwgKipEdXBsaWNhdGVzKiogfCB+MzAwIHwgMCB8CgotLS0KCiMjIERhdGEgUXVhbGl0eSBJc3N1ZXMgJiBEZWNpc2lvbnMKCiMjIyAxLiBEdXBsaWNhdGUgUmVtb3ZhbApEZXRlY3RlZCBhbmQgcmVtb3ZlZCB+MzAwIGZ1bGwgZHVwbGljYXRlIHJvd3MuIFJldGFpbmVkIHRoZSBmaXJzdCBvY2N1cnJlbmNlIG9mIGVhY2gsIGFzIHRoZXJlIHdhcyBubyBiYXNpcyB0byBwcmVmZXIgb25lIG92ZXIgYW5vdGhlci4KCiMjIyAyLiBEYXRlIFN0YW5kYXJkaXphdGlvbgpUaGUgYG9yZGVyX2RhdGVgIGNvbHVtbiBoYWQgbWl4ZWQgZm9ybWF0cyAoZS5nLiBgMjAyNC0wMS0xNWAsIGAxNS8wMS8yMDI0YCwgYEphbnVhcnkgMTUgMjAyNGApLiBVc2VkIGBwZC50b19kYXRldGltZSh1dGM9VHJ1ZSwgZXJyb3JzPSdjb2VyY2UnKWAgdG8gcGFyc2UgYWxsIHZhcmlhbnRzIGFuZCBzdGFuZGFyZGl6ZSB0byBVVEMuIFJlc3VsdDogMCBOYVQgcmVtYWluaW5nLgoKIyMjIDMuIFplcm8tUXVhbnRpdHkgUm93cwpSb3dzIHdpdGggYHF1YW50aXR5ID09IDBgIHJlcHJlc2VudCBubyB0cmFuc2FjdGlvbiAtLSBub3QgcmV0dXJucywgbm90IHNhbGVzLiBEcm9wcGVkIGNvbXBsZXRlbHkuCgojIyMgNC4gRmluYW5jaWFsIFJlY2FsY3VsYXRpb24KRGV0ZWN0ZWQgdGhhdCB0aGUgb3JpZ2luYWwgYHRvdGFsX2Ftb3VudGAgY29sdW1uIGNvbnRhaW5lZCBjb3JydXB0ZWQgdmFsdWVzIChub3QgZXF1YWwgdG8gYHF1YW50aXR5IMOXIHVuaXRfcHJpY2VgKS4gUmVjYWxjdWxhdGVkIGZyb20gc2NyYXRjaCByYXRoZXIgdGhhbiBwYXRjaGluZyBpbmRpdmlkdWFsIG91dGxpZXJzLCBlbnN1cmluZyBmdWxsIGNvbnNpc3RlbmN5IGFjcm9zcyB0aGUgZGF0YXNldC4KCiMjIyA1LiBSZXR1cm4gVHJhbnNhY3Rpb25zIChOZWdhdGl2ZSBRdWFudGl0eSkKMjAwIHJvd3Mgd2l0aCBgcXVhbnRpdHkgPCAwYCB3ZXJlIGlkZW50aWZpZWQgYXMgcmV0dXJucy4gVGhlc2Ugd2VyZSByZXRhaW5lZCBkZWxpYmVyYXRlbHkgLS0gcmVtb3ZpbmcgdGhlbSB3b3VsZCBza2V3IHJldmVudWUgYW5hbHlzaXMgYW5kIGhpZGUgcmVhbCBidXNpbmVzcyBiZWhhdmlvdXIuIE5lZ2F0aXZlIGB0b3RhbF9hbW91bnRgIG9uIHJldHVybnMgaXMgY29ycmVjdCBpbiBhY2NvdW50aW5nIHRlcm1zLgoKIyMjIDYuIE1pc3NpbmcgYHVuaXRfcHJpY2VgIChEZWxpYmVyYXRlIERlY2lzaW9uKQoxLDk4OSByb3dzIGhhdmUgbm8gcmVjb3JkZWQgdW5pdCBwcmljZS4gVGhlc2Ugd2VyZSBrZXB0IGFzIGBOYU5gIGludGVudGlvbmFsbHkuIEltcHV0aW5nIHdpdGggbWVkaWFuIG9yIG1lYW4gd291bGQgaW50cm9kdWNlIGJpYXMgaW50byByZXZlbnVlIGNhbGN1bGF0aW9ucyAtLSB0aGUgY29ycmVjdCBhcHByb2FjaCBpcyB0byBob25vdXIgdGhlIG1pc3NpbmcgZGF0YSBhbmQgbGV0IGRvd25zdHJlYW0gYW5hbHlzaXMgaGFuZGxlIGl0IGV4cGxpY2l0bHkuCgotLS0KCiMjIFRlY2ggU3RhY2sKCi0gKipQeXRob24gMy54KioKLSAqKlBhbmRhcyoqIC0tIGNvcmUgZGF0YSBtYW5pcHVsYXRpb24KLSAqKk51bVB5KiogLS0gdmVjdG9yaXNlZCBvcGVyYXRpb25zCi0gKipKdXB5dGVyIE5vdGVib29rIC8gR29vZ2xlIENvbGFiKiogLS0gZGV2ZWxvcG1lbnQgZW52aXJvbm1lbnQKCi0tLQoKIyMgRmlsZXMKCmBgYAouCuKUnOKUgOKUgCBkYXRhX2NsZWFuaW5nLmlweW5iICAgICAgICAgICAjIEZ1bGwgY2xlYW5pbmcgcGlwZWxpbmUgd2l0aCBkb2N1bWVudGVkIHJhdGlvbmFsZQrjgpLilIDilIAgbWVzc3lfY3VzdG9tZXJfb3JkZXJzLmNzdiAgICAgICMgT3JpZ2luYWwgcmF3IGRhdGFzZXQKouKUgOKUgCBjbGVhbl9jdXN0b21lcl9vcmRlcnMuY3N2ICAgICAgIyBGaW5hbCBjbGVhbmVkIG91dHB1dApgYGAKCi0tLQoKIyMgRmluYWwgRGF0YSBRdWFsaXR5IFN0YXRlCgpgYGAKU2hhcGU6ICAgICAgICAgICAgICAgICA0OSw3MDAgcm93cyB4IDE1IGNvbHVtbnMKTmFUIGluIG9yZGVyX2RhdGU6ICAgICAwCk5hTiBpbiB1bml0X3ByaWNlOiAgICAgMSw5ODkgKGludGVudGlvbmFsIC0tIHNlZSBkZWNpc2lvbiBhYm92ZSkKTmVnYXRpdmUgcXVhbnRpdHk6ICAgICAyMDAgKHJldHVybnMgLS0gcmV0YWluZWQgZGVsaWJlcmF0ZWx5KQpEdXBsaWNhdGVzOiAgICAgICAgICAgIDAKYGBgCgotLS0KCiMjIEtleSBMZWFybmluZ3MKCi0gKipDb3JydXB0ZWQgZGVyaXZlZCBjb2x1bW5zKiogc2hvdWxkIGFsd2F5cyBiZSByZWNhbGN1bGF0ZWQgZnJvbSBzb3VyY2UgY29sdW1ucywgbm90IHBhdGNoZWQKLSAqKk1pc3NpbmcgZGF0YSBpcyBub3QgYWx3YXlzIGEgcHJvYmxlbSoqIC0tIGltcHV0aW5nIHVua25vd24gcHJpY2VzIHdvdWxkIGJlIHdvcnNlIHRoYW4gdGhlIG1pc3NpbmcgdmFsdWVzCi0gKipCdXNpbmVzcyBjb250ZXh0IG1hdHRlcnMqKiAtLSBuZWdhdGl2ZSBxdWFudGl0aWVzIGFyZSB2YWxpZCByZXR1cm5zLCBub3QgZXJyb3JzCi0gKipBdWRpdCB0cmFpbHMqKiAtLSBldmVyeSBkZWNpc2lvbiBpcyBkb2N1bWVudGVkIGlubGluZSBpbiB0aGUgbm90ZWJvb2sgd2l0aCBhIHJhdGlvbmFsZQoKLS0tCgojIyBBdXRob3IKCioqTW9oYW1lZCBKYXdhZCBUb3VpcioqIC0tIEJpZyBEYXRhIFN0dWRlbnQgQCBFUEkgfCBBc3BpcmluZyBNTC9BSSBFbmdpbmVlcgoKW0dpdEh1Yl0oaHR0cHM6Ly9naXRodWIuY29tL0pJTlpPLUFJKQ==
+# Customer Orders Data Cleaning
+
+> **Python & Pandas pipeline that transformed a 50,000-row e-commerce dataset full of real-world quality issues into an analysis-ready asset.**
+
+---
+
+## Project Overview
+
+This project simulates the kind of messy, real-world data analysts encounter in production environments. The raw dataset contained multiple overlapping issues across duplicates, date formats, inconsistent country names, financial calculations, and missing values. The goal was not just to clean the data, but to document every decision with a clear rationale — treating it as a production-grade audit trail.
+
+---
+
+## Dataset
+
+| | Raw | Clean |
+|---|---|---|
+| **Rows** | ~50,000 | 49,700 |
+| **Columns** | 15 | 15 |
+| **Duplicates** | ~300 | 0 |
+| **Zero-quantity rows** | ~300 | 0 |
+| **Corrupted `total_amount`** | Yes | Recalculated |
+| **NaT in `order_date`** | Yes | 0 |
+| **Inconsistent country names** | Yes (`u.s.a`, `usa`, `uk`...) | Standardized |
+| **Blank date feature columns** | Yes | Recalculated from source |
+
+---
+
+## Data Quality Issues & Decisions
+
+### 1. Duplicate Removal
+Detected and removed ~300 full duplicate rows. Retained the first occurrence of each, as there was no basis to prefer one over another.
+
+### 2. Date Standardization
+The `order_date` column had mixed formats (e.g. `2024-01-15`, `15/01/2024`, `January 15 2024`). Used `pd.to_datetime(utc=True, errors='coerce')` to parse all variants and standardize to UTC. Result: 0 NaT remaining.
+
+### 3. Zero-Quantity Rows
+Rows with `quantity == 0` represent no transaction — not returns, not sales. Dropped completely.
+
+### 4. Financial Recalculation
+Detected that the original `total_amount` column contained corrupted values (not equal to `quantity × unit_price`). Recalculated from scratch rather than patching individual outliers, ensuring full consistency across the dataset.
+
+### 5. Return Transactions (Negative Quantity)
+200 rows with `quantity < 0` were identified as returns. These were retained deliberately — removing them would skew revenue analysis and hide real business behaviour. Negative `total_amount` on returns is correct in accounting terms.
+
+### 6. Missing `unit_price` (Deliberate Decision)
+1,989 rows have no recorded unit price. These were kept as `NaN` intentionally. Imputing with median or mean would introduce bias into revenue calculations — the correct approach is to honour the missing data and let downstream analysis handle it explicitly.
+
+### 7. Country Name Standardization
+The `country` column contained 2,962 rows with `u.s.a` (and variants like `usa`, `u.s.a.`) that were not caught by a simple string match. Applied `.str.strip().str.lower()` before mapping to catch all edge cases. Result: `United States` count went from 8,933 → 11,895.
+
+```
+United States    11,895   ← merged 8,933 + 2,962 variants
+Germany           9,011
+Australia         8,796
+Canada            8,779
+United Kingdom    8,733
+Unknown           2,486   ← retained as-is (genuinely missing)
+```
+
+### 8. Date Feature Columns Recalculated
+`order_year`, `order_month`, and `order_day_of_week` were derived columns that contained blanks because they were computed before date standardization. Recalculated from the clean `order_date` column. Result: 0 NaN remaining.
+
+---
+
+## Tech Stack
+
+- **Python 3.x**
+- **Pandas** -- core data manipulation
+- **NumPy** -- vectorised operations
+- **Google Colab** -- development environment
+
+---
+
+## Files
+
+```
+.
+├── data_cleaning.ipynb            # Full cleaning pipeline with documented rationale
+├── messy_customer_orders.csv      # Original raw dataset
+└── clean_customer_orders.csv      # Final cleaned output
+```
+
+---
+
+## Final Data Quality State
+
+```
+Shape:                  49,700 rows × 15 columns
+NaT in order_date:      0
+NaN in unit_price:      1,989  (intentional -- see decision above)
+NaN in order_year:      0
+Negative quantity:      200    (returns -- retained deliberately)
+Duplicates:             0
+u.s.a variants:         0      (all merged into United States)
+```
+
+---
+
+## Key Learnings
+
+- **Corrupted derived columns** should always be recalculated from source columns, not patched
+- **Missing data is not always a problem** -- imputing unknown prices would be worse than the missing values
+- **Business context matters** -- negative quantities are valid returns, not errors
+- **String matching is fragile** -- always normalise case and whitespace before applying a value map
+- **Derived columns go stale** -- any column computed from another must be recalculated after the source is cleaned
+- **Audit trails** -- every decision is documented inline in the notebook with a rationale
+
+---
+
+## Author
+
+**Mohamed Jawad Touir** -- Big Data Student @ EPI | Aspiring ML/AI Engineer
+
+[GitHub](https://github.com/JINZO-AI)
