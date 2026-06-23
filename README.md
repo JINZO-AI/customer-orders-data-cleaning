@@ -281,4 +281,4 @@ Zero-quantity rows represent data entry errors with no business meaning. Recalcu
 
 **Mohamed Jawad Touir** — Big Data Student @ EPI Digital School | Aspiring Data Engineer / ML Engineer
 
-[GitHub](https://github.com/JINZO-AI) · [LinkedIn](https://www.linkedin.com/in/jawad-touir)
+[GitHub](https://github.com/JINZO-AI) · [LinkedIn](https://www.linkedin.com/in/mohamedjawadtouir/)
